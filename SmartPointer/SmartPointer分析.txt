@@ -1,0 +1,5 @@
+SmartPointer 在设计上并不能完全替代原始指针 因为每次只能由一个智能指针
+指向一片堆空间 这不符合常规开发需求 多个SmartPointer 不能指向同一片堆空间
+因此引出了SharedPointer
+
+
